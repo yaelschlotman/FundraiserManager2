@@ -1,0 +1,12 @@
+When I looked up something on the Internet:
+
+2/22:  Looked up again how to read/write to text. 
+		Wrote up classes for file reader and file writer, 
+		but I still don't understand it, really.
+
+2/23:  Spent half an hour looking up and understanding "persistant data".
+		 
+
+2/25:  Looked up how to convert string to int and decimal.
+
+2/29:  Spent all morning looking up working through writing to and reading from a text file.

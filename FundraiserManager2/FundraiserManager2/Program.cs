@@ -12,8 +12,9 @@ namespace FundraiserManager2
         {
             FundraiserManager fundraiserManager = new FundraiserManager();
 
-            //fundraiserManager.SetUpFundraiser();
-           fundraiserManager.AddParticipantToGroup();
+            fundraiserManager.SetUpFundraiser();
+            fundraiserManager.AddParticipantToGroup();
+            Console.ReadKey();
 
         }
     }

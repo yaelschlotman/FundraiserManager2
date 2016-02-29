@@ -32,12 +32,11 @@ namespace FundraiserManager2
 
         public void AddParticipantToGroup()
         {
-            string FirstName = userData.GetUserInputAsString("Participant First Name?");
-            string LastName = userData.GetUserInputAsString("Participant Last Name?");
             UserChoice = userData.GetUserInputAsString("Add participant? Y or N");
             while (UserChoice.ToLower() == "y")
             {
-                
+                string FirstName = userData.GetUserInputAsString("Participant First Name?");
+                string LastName = userData.GetUserInputAsString("Participant Last Name?");
                 fundraiser.Participants.Add(new Participant(FirstName, LastName));
                 UserChoice = userData.GetUserInputAsString("Add another participant?");
             }
